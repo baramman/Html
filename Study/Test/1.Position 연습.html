@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1.Position 연습</title>
+
+    <style>
+        section {
+            display: inline-block;
+        }
+        
+        section > div {
+            width: 300px;
+            height: 300px;
+            border: 1px dashed black;
+        }
+
+        .box1 {
+            position: relative;
+        }
+        .box1 > div {
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 200px;
+            height: 200px;
+            background: green;
+        }
+
+        .box2 {
+            position: relative;
+        }
+        .box2 > div {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 200px;
+            height: 200px;
+            background: green;
+        }
+
+        .box3 {
+            position: relative;
+        }
+        .box3 > div {
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 200px;
+            height: 200px;
+            background: green;
+        }
+        .box3 > div > div {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 100px;
+            height: 100px;
+            background: blue;
+        }
+
+        .box4 {
+            position: relative;
+        }
+        .box4 > div {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 200px;
+            height: 200px;
+            background: green;
+        }
+        .box4 > div > div {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100px;
+            height: 100px;
+            background: blue;
+        }
+
+
+        
+    </style>
+</head>
+<body>
+
+    <section>
+        <h3>1.다음과 같이 포지셔닝 하세요.</h3>
+        <div class="box1">
+            <div></div>
+        </div>
+    </section>
+
+    <section>
+        <h3>2.다음과 같이 포지셔닝 하세요.</h3>
+        <div class="box2">
+            <div></div>
+        </div>
+    </section>
+
+    <section>
+        <h3>3.다음과 같이 포지셔닝 하세요.</h3>
+        <div class="box3">
+            <div>
+                <div></div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h3>4.다음과 같이 포지셔닝 하세요.</h3>
+        <div class="box4">
+            <div>
+                <div></div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h3>5.다음과 같이 포지셔닝 하세요.</h3>
+        <div class="box5"></div>
+    </section>
+
+    <section>
+        <h3>6.다음과 같이 포지셔닝 하세요.</h3>
+        <div class="box6"></div>
+    </section>
+
+    <section>
+        <h3>7.다음과 같이 포지셔닝 하세요.</h3>
+        <div class="box7"></div>
+    </section>
+
+    <section>
+        <h3>8.다음과 같이 포지셔닝 하세요.</h3>
+        <div class="box8"></div>
+    </section>
+
+    <section>
+        <h3>9.다음과 같이 포지셔닝 하세요.</h3>
+        <div class="box9"></div>
+    </section>
+
+    <section>
+        <h3>10.다음과 같이 포지셔닝 하세요.</h3>
+        <div class="box10"></div>
+    </section>
+
+    <section>
+        <h3>11.다음과 같이 포지셔닝 하세요.</h3>
+        <div class="box11"></div>
+    </section>
+
+</body>
+</html>
